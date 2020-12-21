@@ -77,7 +77,7 @@ public class UICucumberSteps extends BaseStepClass {
     }
 
 
-    @Then("I should see the below values are displayed in the table")
+    @Then("I should see the below values are displayed in the table as Bookkeeper")
     public void iShouldSeeTheBelowValuesAreDisplayedInTheTable(DataTable dataTable) {
         List <List <String>> explist = dataTable.asLists(String.class);
         System.out.println("Expectedlist:"+explist);
@@ -119,7 +119,7 @@ public class UICucumberSteps extends BaseStepClass {
         Assert.assertEquals(cashDispensePage.Text_CashDispensed.getText(),arg0);
     }
 
-    @When("I click on Dispense Now button")
+    @When("I click on Dispense Now button as Governor")
     public void iClickOnDispenseNowButton() {
         click(cashDispensePage.Btn_DispenseNow);
     }
