@@ -1,0 +1,151 @@
+[ {
+  "uid" : "43a78f642b42ae51",
+  "name" : "Insert Work Class with decimal Salary",
+  "time" : {
+    "start" : 1608571587403,
+    "stop" : 1608571587427,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca8245cf284e7c3b",
+  "name" : "Insert Work Class with invalid Salary",
+  "time" : {
+    "start" : 1608571587672,
+    "stop" : 1608571587701,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c47689b65c6d722c",
+  "name" : "Insert Work Class with gender F",
+  "time" : {
+    "start" : 1608571587374,
+    "stop" : 1608571587399,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47aa8675346df5be",
+  "name" : "Insert Work Class with gender M",
+  "time" : {
+    "start" : 1608571586113,
+    "stop" : 1608571587324,
+    "duration" : 1211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf4951f7ed030ab8",
+  "name" : "Insert Work Class with Tax value more than Salary",
+  "time" : {
+    "start" : 1608571587903,
+    "stop" : 1608571587932,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5287646d2635e39",
+  "name" : "Insert Work Class with null Tax",
+  "time" : {
+    "start" : 1608571587704,
+    "stop" : 1608571587750,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dfd99e83957e975",
+  "name" : "Insert Work Class with invalid Birthday",
+  "time" : {
+    "start" : 1608571587803,
+    "stop" : 1608571587851,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95c692c897f2117d",
+  "name" : "Insert Work Class with invalid gender",
+  "time" : {
+    "start" : 1608571587514,
+    "stop" : 1608571587540,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2590bca8249ac74e",
+  "name" : "Insert Work Class with invalid Tax",
+  "time" : {
+    "start" : 1608571587753,
+    "stop" : 1608571587800,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b13b219795e72b0",
+  "name" : "Insert Work Class with null Salary",
+  "time" : {
+    "start" : 1608571587571,
+    "stop" : 1608571587669,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b42bcd396ce76439",
+  "name" : "Insert Work Class with null Birthday",
+  "time" : {
+    "start" : 1608571587854,
+    "stop" : 1608571587900,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfc53910d8b1e32c",
+  "name" : "Insert Work Class with spl char in Name",
+  "time" : {
+    "start" : 1608571587464,
+    "stop" : 1608571587487,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "847ddc109e003b1c",
+  "name" : "Insert Work Class with decimal Tax",
+  "time" : {
+    "start" : 1608571587430,
+    "stop" : 1608571587457,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d42b1dbd1ccab5f9",
+  "name" : "Insert Work Class with spl char in Natid",
+  "time" : {
+    "start" : 1608571587489,
+    "stop" : 1608571587510,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18557c3f85cf3587",
+  "name" : "Insert Work Class with null gender",
+  "time" : {
+    "start" : 1608571587549,
+    "stop" : 1608571587569,
+    "duration" : 20
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

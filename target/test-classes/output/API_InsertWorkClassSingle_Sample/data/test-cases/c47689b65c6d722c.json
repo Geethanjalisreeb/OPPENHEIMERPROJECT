@@ -1,0 +1,165 @@
+{
+  "uid" : "c47689b65c6d722c",
+  "name" : "Insert Work Class with gender F",
+  "fullName" : "Insert Single Work Class: Insert Work Class with gender F",
+  "historyId" : "40dbc1e89d490f8048922a6797816234",
+  "time" : {
+    "start" : 1608571587374,
+    "stop" : 1608571587399,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Database is cleaned up before test execution",
+      "time" : {
+        "start" : 1608571587374,
+        "stop" : 1608571587376,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571587376,
+        "stop" : 1608571587398,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "264dbae60da288c8",
+        "name" : "Data table",
+        "source" : "264dbae60da288c8.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 76
+      }, {
+        "uid" : "15b6e8269337a564",
+        "name" : "Request Header:",
+        "source" : "15b6e8269337a564.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "a17a5015eb6ebaac",
+        "name" : "Request Body:",
+        "source" : "a17a5015eb6ebaac.json",
+        "type" : "text/json",
+        "size" : 132
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"202\"",
+      "time" : {
+        "start" : 1608571587398,
+        "stop" : 1608571587399,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a6241edf68bb2b8",
+        "name" : "Actual Status Code: ",
+        "source" : "9a6241edf68bb2b8.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "InsertWorkClassSingle"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25571@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with gender F"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Insert Single Work Class"
+  }, {
+    "name" : "suite",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with gender F"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/InsertSingleWorkingClassAPI.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "19081988"
+  }, {
+    "name" : "Gender",
+    "value" : "M"
+  }, {
+    "name" : "Name",
+    "value" : "T12Name"
+  }, {
+    "name" : "Natid",
+    "value" : "T122222"
+  }, {
+    "name" : "Salary",
+    "value" : "345678"
+  }, {
+    "name" : "Tax",
+    "value" : "250"
+  }, {
+    "name" : "TestScenario_Success",
+    "value" : "Insert Work Class with gender F"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "InsertWorkClassSingle" ]
+  },
+  "source" : "c47689b65c6d722c.json",
+  "parameterValues" : [ "19081988", "M", "T12Name", "T122222", "345678", "250", "Insert Work Class with gender F" ]
+}

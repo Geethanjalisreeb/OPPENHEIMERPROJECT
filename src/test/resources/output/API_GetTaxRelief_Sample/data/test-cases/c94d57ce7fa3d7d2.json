@@ -1,0 +1,312 @@
+{
+  "uid" : "c94d57ce7fa3d7d2",
+  "name" : "Insert Work Class with Age equal 50 (Tax Relief is 50.00)",
+  "fullName" : "GetTaxReliefValues: Insert Work Class with Age equal 50 (Tax Relief is 50.00)",
+  "historyId" : "823bda5e448bcbcae45141410d513cba",
+  "time" : {
+    "start" : 1608571677173,
+    "stop" : 1608571677259,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I send post request with path \"/calculator/rakeDatabase\"",
+      "time" : {
+        "start" : 1608571677173,
+        "stop" : 1608571677184,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42a1195092381228",
+        "name" : "Request Header:",
+        "source" : "42a1195092381228.txt",
+        "type" : "text/plain",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571677185,
+        "stop" : 1608571677200,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99bd1e78f41a070f",
+        "name" : "Data table",
+        "source" : "99bd1e78f41a070f.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 79
+      }, {
+        "uid" : "6c1f404e1edf3268",
+        "name" : "Request Header:",
+        "source" : "6c1f404e1edf3268.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "381d76663803b96c",
+        "name" : "Request Body:",
+        "source" : "381d76663803b96c.json",
+        "type" : "text/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"202\"",
+      "time" : {
+        "start" : 1608571677200,
+        "stop" : 1608571677201,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "257efdd843742154",
+        "name" : "Actual Status Code: ",
+        "source" : "257efdd843742154.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send get request with path \"/calculator/taxRelief\"",
+      "time" : {
+        "start" : 1608571677201,
+        "stop" : 1608571677213,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ffe0222c991c329",
+        "name" : "Request Header:",
+        "source" : "6ffe0222c991c329.txt",
+        "type" : "text/plain",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should verify the value matches response in \"GetTaxRelief\" with following values",
+      "time" : {
+        "start" : 1608571677214,
+        "stop" : 1608571677233,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5cdfa7492c42ed77",
+        "name" : "Data table",
+        "source" : "5cdfa7492c42ed77.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 36
+      }, {
+        "uid" : "4c14b65993b82706",
+        "name" : "Request Header:",
+        "source" : "4c14b65993b82706.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "99daf5d386613a54",
+        "name" : "Request Body:",
+        "source" : "99daf5d386613a54.json",
+        "type" : "text/json",
+        "size" : 70
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send get request with path \"/calculator/taxReliefSummary\"",
+      "time" : {
+        "start" : 1608571677233,
+        "stop" : 1608571677246,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3603cbf572eb124",
+        "name" : "Request Header:",
+        "source" : "e3603cbf572eb124.txt",
+        "type" : "text/plain",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should verify the value matches response in \"GetTaxReliefSummary\" with following values",
+      "time" : {
+        "start" : 1608571677246,
+        "stop" : 1608571677251,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aadffecd0fe14540",
+        "name" : "Data table",
+        "source" : "aadffecd0fe14540.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 53
+      }, {
+        "uid" : "8c5a9b5b2311af4d",
+        "name" : "Actual Response",
+        "source" : "8c5a9b5b2311af4d.json",
+        "type" : "text/json",
+        "size" : 73
+      }, {
+        "uid" : "61bc35e0804f1f5b",
+        "name" : "Expected Response:",
+        "source" : "61bc35e0804f1f5b.json",
+        "type" : "text/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  I should verify JSONSchema matches schema as in \"GetTaxReliefSummary\"",
+      "time" : {
+        "start" : 1608571677251,
+        "stop" : 1608571677258,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dcbad7c3c26fa7ee",
+        "name" : "Expected JSON Schema:",
+        "source" : "dcbad7c3c26fa7ee.json",
+        "type" : "text/json",
+        "size" : 302
+      }, {
+        "uid" : "6af59e164b62bcc8",
+        "name" : "Actual Response:",
+        "source" : "6af59e164b62bcc8.json",
+        "type" : "text/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "GetTaxRelief"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25727@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "GetTaxReliefValues"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with Age equal 50 (Tax Relief is 50.00)"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.GetTaxReliefValues"
+  }, {
+    "name" : "suite",
+    "value" : "GetTaxReliefValues"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with Age equal 50 (Tax Relief is 50.00)"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/GetWorkClassTaxRelief_API.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "19081970"
+  }, {
+    "name" : "Gender",
+    "value" : "M"
+  }, {
+    "name" : "Name",
+    "value" : "T56Name"
+  }, {
+    "name" : "Natid",
+    "value" : "T566666"
+  }, {
+    "name" : "NatidMasked",
+    "value" : "T566$$$"
+  }, {
+    "name" : "Salary",
+    "value" : "345678"
+  }, {
+    "name" : "Tax",
+    "value" : "345578"
+  }, {
+    "name" : "TaxRelief",
+    "value" : "50.00"
+  }, {
+    "name" : "TestScenario_Success",
+    "value" : "Insert Work Class with Age equal 50 (Tax Relief is 50.00)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "GetTaxRelief" ]
+  },
+  "source" : "c94d57ce7fa3d7d2.json",
+  "parameterValues" : [ "19081970", "M", "T56Name", "T566666", "T566$$$", "345678", "345578", "50.00", "Insert Work Class with Age equal 50 (Tax Relief is 50.00)" ]
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "d2395161b891dcbf",
+  "name" : "Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)",
+  "time" : {
+    "start" : 1608571677092,
+    "stop" : 1608571677170,
+    "duration" : 78
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c77ae11dfd849f2e",
+  "name" : "Insert Work Class with Age equal 18 (Masked Value & Gender M)",
+  "time" : {
+    "start" : 1608571676763,
+    "stop" : 1608571676863,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7172bdc34cecf9df",
+  "name" : "Insert Work Class with Age greater than 76",
+  "time" : {
+    "start" : 1608571677494,
+    "stop" : 1608571677557,
+    "duration" : 63
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9c50c966dd62e96",
+  "name" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)",
+  "time" : {
+    "start" : 1608571676872,
+    "stop" : 1608571676974,
+    "duration" : 102
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "417ccc08aa1d2bde",
+  "name" : "Insert Work Class with Age greater than 50 and less than 75 (0.00< TaxRelief<50.00)",
+  "time" : {
+    "start" : 1608571677262,
+    "stop" : 1608571677341,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a00b9b3c06b9a7f3",
+  "name" : "Insert Work Class with Age equal 75  (0.00< TaxRelief<50.00 & Gender F)",
+  "time" : {
+    "start" : 1608571677344,
+    "stop" : 1608571677420,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ced2f562d68c50b9",
+  "name" : "Insert Work Class with Age equal 35 (Normal Rounding Rule)",
+  "time" : {
+    "start" : 1608571676986,
+    "stop" : 1608571677089,
+    "duration" : 103
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c76a75d27d023edc",
+  "name" : "Insert Work Class with Age less than 18 (Masked Value & Gender F)",
+  "time" : {
+    "start" : 1608571675033,
+    "stop" : 1608571676699,
+    "duration" : 1666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c94d57ce7fa3d7d2",
+  "name" : "Insert Work Class with Age equal 50 (Tax Relief is 50.00)",
+  "time" : {
+    "start" : 1608571677173,
+    "stop" : 1608571677259,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ea8210872f307c9",
+  "name" : "Insert Work Class with Age equal 76  (Decimal Truncate to 2)",
+  "time" : {
+    "start" : 1608571677423,
+    "stop" : 1608571677491,
+    "duration" : 68
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,165 @@
+{
+  "uid" : "847ddc109e003b1c",
+  "name" : "Insert Work Class with decimal Tax",
+  "fullName" : "Insert Single Work Class: Insert Work Class with decimal Tax",
+  "historyId" : "2907ad68c98f5635b4280819ac5b5601",
+  "time" : {
+    "start" : 1608571587430,
+    "stop" : 1608571587457,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Database is cleaned up before test execution",
+      "time" : {
+        "start" : 1608571587430,
+        "stop" : 1608571587432,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571587432,
+        "stop" : 1608571587455,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fcb10d6b8f3b0989",
+        "name" : "Data table",
+        "source" : "fcb10d6b8f3b0989.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 81
+      }, {
+        "uid" : "f4b48f7b48ed11c6",
+        "name" : "Request Header:",
+        "source" : "f4b48f7b48ed11c6.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "2b9a627b0d225b29",
+        "name" : "Request Body:",
+        "source" : "2b9a627b0d225b29.json",
+        "type" : "text/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"202\"",
+      "time" : {
+        "start" : 1608571587455,
+        "stop" : 1608571587457,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "103cc5d380ab459e",
+        "name" : "Actual Status Code: ",
+        "source" : "103cc5d380ab459e.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "InsertWorkClassSingle"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25571@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with decimal Tax"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Insert Single Work Class"
+  }, {
+    "name" : "suite",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with decimal Tax"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/InsertSingleWorkingClassAPI.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "19081988"
+  }, {
+    "name" : "Gender",
+    "value" : "F"
+  }, {
+    "name" : "Name",
+    "value" : "T14Name"
+  }, {
+    "name" : "Natid",
+    "value" : "T144444"
+  }, {
+    "name" : "Salary",
+    "value" : "345678"
+  }, {
+    "name" : "Tax",
+    "value" : "250.4555"
+  }, {
+    "name" : "TestScenario_Success",
+    "value" : "Insert Work Class with decimal Tax"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "InsertWorkClassSingle" ]
+  },
+  "source" : "847ddc109e003b1c.json",
+  "parameterValues" : [ "19081988", "F", "T14Name", "T144444", "345678", "250.4555", "Insert Work Class with decimal Tax" ]
+}

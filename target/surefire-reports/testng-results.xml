@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3358" started-at="2020-12-21T17:52:40Z" finished-at="2020-12-21T17:52:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="3358" started-at="2020-12-21T17:52:40Z" finished-at="2020-12-21T17:52:43Z">
+      <class name="api.runner.APITestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:api.runner.APITestRunner@464bee09]" name="setUpClass" is-config="true" duration-ms="310" started-at="2020-12-22T01:52:40Z" finished-at="2020-12-22T01:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="2193" started-at="2020-12-22T01:52:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age less than 18 (Masked Value & Gender F)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="113" started-at="2020-12-22T01:52:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age equal 18 (Masked Value & Gender M)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="95" started-at="2020-12-22T01:52:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276842.80"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276842.81"}>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276842.80"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276842.81"}>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in "GetTaxReliefSummary" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="91" started-at="2020-12-22T01:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age equal 35 (Normal Rounding Rule)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276342.12"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276342.00"}>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276342.12"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276342.00"}>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in "GetTaxReliefSummary" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="71" started-at="2020-12-22T01:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"50.00"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"86419"}>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"50.00"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"86419"}>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in "GetTaxReliefSummary" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="83" started-at="2020-12-22T01:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age equal 50 (Tax Relief is 50.00)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="85" started-at="2020-12-22T01:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age greater than 50 and less than 75 (0.00< TaxRelief<50.00)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="88" started-at="2020-12-22T01:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age equal 75  (0.00< TaxRelief<50.00 & Gender F)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="85" started-at="2020-12-22T01:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age equal 76  (Decimal Truncate to 2)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"171771.39"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17771.00"}>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"171771.39"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17771.00"}>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in "GetTaxReliefSummary" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:api.runner.APITestRunner@464bee09]" name="runScenario" duration-ms="65" started-at="2020-12-22T01:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T01:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insert Work Class with Age greater than 76"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetTaxReliefValues"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"171271.40"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17271.00"}>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"171271.40"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17271.00"}>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in "GetTaxReliefSummary" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:api.runner.APITestRunner@464bee09]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-12-22T01:52:43Z" finished-at="2020-12-22T01:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- api.runner.APITestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

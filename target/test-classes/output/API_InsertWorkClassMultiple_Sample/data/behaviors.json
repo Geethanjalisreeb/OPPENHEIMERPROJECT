@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Insert Multiple Work Class",
+    "children" : [ {
+      "name" : "Insert multiple work class list",
+      "children" : [ {
+        "name" : "Insert multiple work class list",
+        "uid" : "43a0b041d113de6a",
+        "parentUid" : "9be27e2454529ee4bd4b30a243cd1141",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571634620,
+          "stop" : 1608571635830,
+          "duration" : 1210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9be27e2454529ee4bd4b30a243cd1141"
+    }, {
+      "name" : "Insert Work Class with 1 invalid workclass in list",
+      "children" : [ {
+        "name" : "Insert Work Class with 1 invalid workclass in list",
+        "uid" : "a00b8cf1535db9fb",
+        "parentUid" : "24ff8de1ec23bbba34b49e2eda5cc71f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571635892,
+          "stop" : 1608571636054,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13081998", "14081968", "Female", "M", "T41Name", "T5Name", "T411111", "T422222", "345678", "3678", "250", "250", "Insert Work Class with 1 invalid workclass in list" ]
+      } ],
+      "uid" : "24ff8de1ec23bbba34b49e2eda5cc71f"
+    }, {
+      "name" : "Insert Work Class with both invalid workclass in list",
+      "children" : [ {
+        "name" : "Insert Work Class with both invalid workclass in list",
+        "uid" : "53ee96e87406652b",
+        "parentUid" : "c74edf4cd822261bd3dc082fba0c9066",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571636058,
+          "stop" : 1608571636103,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13081998", "14081968", "Female", "Male", "T43Name", "T2Name", "T433333", "T444444", "345678", "3678", "250", "250", "Insert Work Class with both invalid workclass in list" ]
+      } ],
+      "uid" : "c74edf4cd822261bd3dc082fba0c9066"
+    } ],
+    "uid" : "399255a6030753177484501ee6f9cf5f"
+  } ]
+}

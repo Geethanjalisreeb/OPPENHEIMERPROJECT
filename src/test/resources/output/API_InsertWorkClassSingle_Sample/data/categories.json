@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<500> but was:<202>",
+      "children" : [ {
+        "name" : "Insert Work Class with invalid gender",
+        "uid" : "95c692c897f2117d",
+        "parentUid" : "13ced4e153d2999f5a849d15d815742a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571587514,
+          "stop" : 1608571587540,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "E", "T21Name", "T211111", "345678", "250", "Insert Work Class with invalid gender" ]
+      }, {
+        "name" : "Insert Work Class with null gender",
+        "uid" : "18557c3f85cf3587",
+        "parentUid" : "13ced4e153d2999f5a849d15d815742a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571587549,
+          "stop" : 1608571587569,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "", "T22Name", "T222222", "345678", "250", "Insert Work Class with null gender" ]
+      }, {
+        "name" : "Insert Work Class with Tax value more than Salary",
+        "uid" : "bf4951f7ed030ab8",
+        "parentUid" : "13ced4e153d2999f5a849d15d815742a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571587903,
+          "stop" : 1608571587932,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "20081996", "F", "T28Name", "T288888", "3456", "233422", "Insert Work Class with Tax value more than Salary" ]
+      } ],
+      "uid" : "13ced4e153d2999f5a849d15d815742a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

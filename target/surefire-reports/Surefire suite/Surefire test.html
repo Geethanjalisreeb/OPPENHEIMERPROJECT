@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 22 01:52:40 SGT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3358 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)", "GetTaxReliefValues"</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276842.80&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276842.81&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1188390859", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1188390859'><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276842.80&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276842.81&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age equal 35 (Normal Rounding Rule)", "GetTaxReliefValues"</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276342.12&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276342.00&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1795560878", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1795560878'><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276342.12&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;276342.00&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)", "GetTaxReliefValues"</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;50.00&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;86419&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1028259121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1028259121'><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;50.00&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;86419&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age equal 76  (Decimal Truncate to 2)", "GetTaxReliefValues"</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;171771.39&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;17771.00&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1954355506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1954355506'><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;171771.39&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;17771.00&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age greater than 76", "GetTaxReliefValues"</td>
+<td><div><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;171271.40&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;17271.00&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1320443884", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1320443884'><pre>java.lang.AssertionError: expected:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;171271.40&quot;}&gt; but was:&lt;{&quot;totalWorkingClassHeroes&quot;:&quot;1&quot;,&quot;totalTaxReliefAmount&quot;:&quot;17271.00&quot;}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at api.tests.BaseTests.assertContent(BaseTests.java:270)
+	at api.tests.APICucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(APICucumberSteps.java:97)
+	at ✽.I should verify the value matches response in &quot;GetTaxReliefSummary&quot; with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)
+</pre></div></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age less than 18 (Masked Value & Gender F)", "GetTaxReliefValues"</td>
+<td></td>
+<td>2</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age equal 18 (Masked Value & Gender M)", "GetTaxReliefValues"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age equal 50 (Tax Relief is 50.00)", "GetTaxReliefValues"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age greater than 50 and less than 75 (0.00< TaxRelief<50.00)", "GetTaxReliefValues"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+<tr>
+<td title='api.runner.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: api.runner.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Insert Work Class with Age equal 75  (0.00< TaxRelief<50.00 & Gender F)", "GetTaxReliefValues"</td>
+<td></td>
+<td>0</td>
+<td>api.runner.APITestRunner@464bee09</td></tr>
+</table><p>
+</body>
+</html>

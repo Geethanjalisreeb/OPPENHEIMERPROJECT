@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Upload File and Dispense Cash",
+    "children" : [ {
+      "name" : "Upload File as a Clerk",
+      "uid" : "611d31ec9d45fb5f",
+      "parentUid" : "edb4e27b6c6bc3b2f303cc5a83ab7f11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571197316,
+        "stop" : 1608571210616,
+        "duration" : 13300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Dispense Now button",
+      "uid" : "50c40a59f24ed8b9",
+      "parentUid" : "edb4e27b6c6bc3b2f303cc5a83ab7f11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571210721,
+        "stop" : 1608571214795,
+        "duration" : 4074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "edb4e27b6c6bc3b2f303cc5a83ab7f11"
+  } ]
+}

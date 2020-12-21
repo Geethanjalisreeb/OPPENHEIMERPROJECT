@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 22 01:19:57 SGT 2020","Tue Dec 22 01:20:10 SGT 2020","13300","","Upload File and Dispense Cash","","Upload File as a Clerk","","Upload File as a Clerk",""
+"passed","Tue Dec 22 01:20:10 SGT 2020","Tue Dec 22 01:20:14 SGT 2020","4074","","Upload File and Dispense Cash","","Verify Dispense Now button","","Verify Dispense Now button",""

@@ -1,0 +1,165 @@
+{
+  "uid" : "2590bca8249ac74e",
+  "name" : "Insert Work Class with invalid Tax",
+  "fullName" : "Insert Single Work Class: Insert Work Class with invalid Tax",
+  "historyId" : "80675ef8d2e42e16c9ef63ccbb43251e",
+  "time" : {
+    "start" : 1608571587753,
+    "stop" : 1608571587800,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Database is cleaned up before test execution",
+      "time" : {
+        "start" : 1608571587753,
+        "stop" : 1608571587754,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571587754,
+        "stop" : 1608571587799,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3791852fad2d8087",
+        "name" : "Data table",
+        "source" : "3791852fad2d8087.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 78
+      }, {
+        "uid" : "ed4cd8ce6c35bfd8",
+        "name" : "Request Header:",
+        "source" : "ed4cd8ce6c35bfd8.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "cf7aaa6848005746",
+        "name" : "Request Body:",
+        "source" : "cf7aaa6848005746.json",
+        "type" : "text/json",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"500\"",
+      "time" : {
+        "start" : 1608571587799,
+        "stop" : 1608571587800,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9374c495008c892e",
+        "name" : "Actual Status Code: ",
+        "source" : "9374c495008c892e.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "InsertWorkClassSingle"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25571@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with invalid Tax"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Insert Single Work Class"
+  }, {
+    "name" : "suite",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with invalid Tax"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/InsertSingleWorkingClassAPI.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "19081988"
+  }, {
+    "name" : "Gender",
+    "value" : "F"
+  }, {
+    "name" : "Name",
+    "value" : "T25Name"
+  }, {
+    "name" : "Natid",
+    "value" : "@@$$%^O&O"
+  }, {
+    "name" : "Salary",
+    "value" : "345678"
+  }, {
+    "name" : "Tax",
+    "value" : "fgg"
+  }, {
+    "name" : "TestScenario_Failure",
+    "value" : "Insert Work Class with invalid Tax"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "InsertWorkClassSingle" ]
+  },
+  "source" : "2590bca8249ac74e.json",
+  "parameterValues" : [ "19081988", "F", "T25Name", "@@$$%^O&O", "345678", "fgg", "Insert Work Class with invalid Tax" ]
+}

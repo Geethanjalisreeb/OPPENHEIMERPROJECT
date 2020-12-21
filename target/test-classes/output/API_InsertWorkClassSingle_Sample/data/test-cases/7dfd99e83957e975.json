@@ -1,0 +1,165 @@
+{
+  "uid" : "7dfd99e83957e975",
+  "name" : "Insert Work Class with invalid Birthday",
+  "fullName" : "Insert Single Work Class: Insert Work Class with invalid Birthday",
+  "historyId" : "915e5927294b6704c9ca5d1fdb3adcbc",
+  "time" : {
+    "start" : 1608571587803,
+    "stop" : 1608571587851,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Database is cleaned up before test execution",
+      "time" : {
+        "start" : 1608571587803,
+        "stop" : 1608571587804,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571587804,
+        "stop" : 1608571587851,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de2ad454e26be6a9",
+        "name" : "Data table",
+        "source" : "de2ad454e26be6a9.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 81
+      }, {
+        "uid" : "424d49a1cc2e8cf9",
+        "name" : "Request Header:",
+        "source" : "424d49a1cc2e8cf9.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "9cc8c1e690851738",
+        "name" : "Request Body:",
+        "source" : "9cc8c1e690851738.json",
+        "type" : "text/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"500\"",
+      "time" : {
+        "start" : 1608571587851,
+        "stop" : 1608571587851,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c343769d45dccd7",
+        "name" : "Actual Status Code: ",
+        "source" : "7c343769d45dccd7.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "InsertWorkClassSingle"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25571@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with invalid Birthday"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Insert Single Work Class"
+  }, {
+    "name" : "suite",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with invalid Birthday"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/InsertSingleWorkingClassAPI.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "56081988"
+  }, {
+    "name" : "Gender",
+    "value" : "F"
+  }, {
+    "name" : "Name",
+    "value" : "T26Name"
+  }, {
+    "name" : "Natid",
+    "value" : "T266666"
+  }, {
+    "name" : "Salary",
+    "value" : "345678"
+  }, {
+    "name" : "Tax",
+    "value" : "250.4555"
+  }, {
+    "name" : "TestScenario_Failure",
+    "value" : "Insert Work Class with invalid Birthday"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "InsertWorkClassSingle" ]
+  },
+  "source" : "7dfd99e83957e975.json",
+  "parameterValues" : [ "56081988", "F", "T26Name", "T266666", "345678", "250.4555", "Insert Work Class with invalid Birthday" ]
+}

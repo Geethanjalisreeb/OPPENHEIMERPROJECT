@@ -1,0 +1,310 @@
+{
+  "uid" : "a9c50c966dd62e96",
+  "name" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)",
+  "fullName" : "GetTaxReliefValues: Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)",
+  "historyId" : "3b4481bbd4be357b4ba95ebf330de47",
+  "time" : {
+    "start" : 1608571676872,
+    "stop" : 1608571676974,
+    "duration" : 102
+  },
+  "status" : "failed",
+  "statusMessage" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>",
+  "statusTrace" : "java.lang.AssertionError: expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:147)\n\tat api.tests.BaseTests.assertContent(BaseTests.java:270)\n\tat api.tests.CucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(CucumberSteps.java:97)\n\tat ✽.I should verify the value matches response in \"GetTaxReliefSummary\" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>",
+    "statusTrace" : "java.lang.AssertionError: expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:147)\n\tat api.tests.BaseTests.assertContent(BaseTests.java:270)\n\tat api.tests.CucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(CucumberSteps.java:97)\n\tat ✽.I should verify the value matches response in \"GetTaxReliefSummary\" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)\n",
+    "steps" : [ {
+      "name" : "Given  I send post request with path \"/calculator/rakeDatabase\"",
+      "time" : {
+        "start" : 1608571676873,
+        "stop" : 1608571676886,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b690cd4e9f3d539",
+        "name" : "Request Header:",
+        "source" : "4b690cd4e9f3d539.txt",
+        "type" : "text/plain",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571676886,
+        "stop" : 1608571676906,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4aef020b8511f515",
+        "name" : "Data table",
+        "source" : "4aef020b8511f515.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 78
+      }, {
+        "uid" : "7cd8af389e87814",
+        "name" : "Request Header:",
+        "source" : "7cd8af389e87814.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "79359459c7835462",
+        "name" : "Request Body:",
+        "source" : "79359459c7835462.json",
+        "type" : "text/json",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"202\"",
+      "time" : {
+        "start" : 1608571676906,
+        "stop" : 1608571676908,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "260e5ec201ac8f46",
+        "name" : "Actual Status Code: ",
+        "source" : "260e5ec201ac8f46.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send get request with path \"/calculator/taxRelief\"",
+      "time" : {
+        "start" : 1608571676908,
+        "stop" : 1608571676925,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a617f83639caa37c",
+        "name" : "Request Header:",
+        "source" : "a617f83639caa37c.txt",
+        "type" : "text/plain",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should verify the value matches response in \"GetTaxRelief\" with following values",
+      "time" : {
+        "start" : 1608571676925,
+        "stop" : 1608571676948,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1cf6eb82cd5b9c5f",
+        "name" : "Data table",
+        "source" : "1cf6eb82cd5b9c5f.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 40
+      }, {
+        "uid" : "4d643b5afc47a1b4",
+        "name" : "Request Header:",
+        "source" : "4d643b5afc47a1b4.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "43af20ee0580e05d",
+        "name" : "Request Body:",
+        "source" : "43af20ee0580e05d.json",
+        "type" : "text/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send get request with path \"/calculator/taxReliefSummary\"",
+      "time" : {
+        "start" : 1608571676948,
+        "stop" : 1608571676964,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79301a5e36d72879",
+        "name" : "Request Header:",
+        "source" : "79301a5e36d72879.txt",
+        "type" : "text/plain",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should verify the value matches response in \"GetTaxReliefSummary\" with following values",
+      "time" : {
+        "start" : 1608571676964,
+        "stop" : 1608571676973,
+        "duration" : 9
+      },
+      "status" : "failed",
+      "statusMessage" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>",
+      "statusTrace" : "java.lang.AssertionError: expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:147)\n\tat api.tests.BaseTests.assertContent(BaseTests.java:270)\n\tat api.tests.CucumberSteps.iShouldVerifyTheValueMatchesResponseInWithFollowingValues(CucumberSteps.java:97)\n\tat ✽.I should verify the value matches response in \"GetTaxReliefSummary\" with following values(file:src/test/resources/features/GetWorkClassTaxRelief_API.feature:17)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e00ff255817505df",
+        "name" : "Data table",
+        "source" : "e00ff255817505df.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 57
+      }, {
+        "uid" : "aa5e904f23838314",
+        "name" : "Actual Response",
+        "source" : "aa5e904f23838314.json",
+        "type" : "text/json",
+        "size" : 77
+      }, {
+        "uid" : "f35655dd23bced93",
+        "name" : "Expected Response:",
+        "source" : "f35655dd23bced93.json",
+        "type" : "text/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And  I should verify JSONSchema matches schema as in \"GetTaxReliefSummary\"",
+      "time" : {
+        "start" : 1608571676973,
+        "stop" : 1608571676974,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "GetTaxRelief"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25727@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "GetTaxReliefValues"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.GetTaxReliefValues"
+  }, {
+    "name" : "suite",
+    "value" : "GetTaxReliefValues"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/GetWorkClassTaxRelief_API.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "19082000"
+  }, {
+    "name" : "Gender",
+    "value" : "F"
+  }, {
+    "name" : "Name",
+    "value" : "T53Name"
+  }, {
+    "name" : "Natid",
+    "value" : "T533333"
+  }, {
+    "name" : "NatidMasked",
+    "value" : "T533$$$"
+  }, {
+    "name" : "Salary",
+    "value" : "345678.5"
+  }, {
+    "name" : "Tax",
+    "value" : "250"
+  }, {
+    "name" : "TaxRelief",
+    "value" : "276842.80"
+  }, {
+    "name" : "TestScenario_Success",
+    "value" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "GetTaxRelief" ]
+  },
+  "source" : "a9c50c966dd62e96.json",
+  "parameterValues" : [ "19082000", "F", "T53Name", "T533333", "T533$$$", "345678.5", "250", "276842.80", "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)" ]
+}

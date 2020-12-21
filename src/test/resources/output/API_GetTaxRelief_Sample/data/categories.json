@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>",
+      "children" : [ {
+        "name" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)",
+        "uid" : "a9c50c966dd62e96",
+        "parentUid" : "b10e4284878732c9109837a1ab2f6781",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571676872,
+          "stop" : 1608571676974,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19082000", "F", "T53Name", "T533333", "T533$$$", "345678.5", "250", "276842.80", "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)" ]
+      } ],
+      "uid" : "b10e4284878732c9109837a1ab2f6781"
+    }, {
+      "name" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276342.12\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276342.00\"}>",
+      "children" : [ {
+        "name" : "Insert Work Class with Age equal 35 (Normal Rounding Rule)",
+        "uid" : "ced2f562d68c50b9",
+        "parentUid" : "fc91abe6175ad737da606d5c8c193689",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571676986,
+          "stop" : 1608571677089,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081985", "M", "T54Name", "T544444", "T544$$$", "345678", "250.35", "276342.12", "Insert Work Class with Age equal 35 (Normal Rounding Rule)" ]
+      } ],
+      "uid" : "fc91abe6175ad737da606d5c8c193689"
+    }, {
+      "name" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"50.00\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"86419\"}>",
+      "children" : [ {
+        "name" : "Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)",
+        "uid" : "d2395161b891dcbf",
+        "parentUid" : "cdcdd86e74c913803902db1ccd81aee1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571677092,
+          "stop" : 1608571677170,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081980", "M", "T55Name", "T555555", "T555$$$", "345678", "345678", "50.00", "Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)" ]
+      } ],
+      "uid" : "cdcdd86e74c913803902db1ccd81aee1"
+    }, {
+      "name" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"171771.39\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"17771.00\"}>",
+      "children" : [ {
+        "name" : "Insert Work Class with Age equal 76  (Decimal Truncate to 2)",
+        "uid" : "7ea8210872f307c9",
+        "parentUid" : "886bff67092313892e88d90ed6d6fdc5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571677423,
+          "stop" : 1608571677491,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081944", "F", "T59Name", "T599999", "T599$$$", "345678.345", "250.567", "171771.39", "Insert Work Class with Age equal 76  (Decimal Truncate to 2)" ]
+      } ],
+      "uid" : "886bff67092313892e88d90ed6d6fdc5"
+    }, {
+      "name" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"171271.40\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"17271.00\"}>",
+      "children" : [ {
+        "name" : "Insert Work Class with Age greater than 76",
+        "uid" : "7172bdc34cecf9df",
+        "parentUid" : "1e22e56da3158bc9850a873400df653c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571677494,
+          "stop" : 1608571677557,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081940", "M", "T50Name", "T500000", "T500$$$", "345678", "250", "171271.40", "Insert Work Class with Age greater than 76" ]
+      } ],
+      "uid" : "1e22e56da3158bc9850a873400df653c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

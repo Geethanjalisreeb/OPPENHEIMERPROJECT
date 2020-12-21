@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.features.Upload File and Dispense Cash",
+    "children" : [ {
+      "name" : "Upload File as a Clerk",
+      "uid" : "611d31ec9d45fb5f",
+      "parentUid" : "b47edeab413baeacc29322efc874b32d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571197316,
+        "stop" : 1608571210616,
+        "duration" : 13300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Dispense Now button",
+      "uid" : "50c40a59f24ed8b9",
+      "parentUid" : "b47edeab413baeacc29322efc874b32d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571210721,
+        "stop" : 1608571214795,
+        "duration" : 4074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.features.Upload File and Dispense Cash"
+  } ]
+}

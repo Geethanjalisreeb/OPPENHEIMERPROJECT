@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Upload File and Dispense Cash",
+    "children" : [ {
+      "name" : "Upload File as a Clerk",
+      "children" : [ {
+        "name" : "Upload File as a Clerk",
+        "uid" : "611d31ec9d45fb5f",
+        "parentUid" : "043334f29171f2d5cbbd7ecc3d881d10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571197316,
+          "stop" : 1608571210616,
+          "duration" : 13300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "043334f29171f2d5cbbd7ecc3d881d10"
+    }, {
+      "name" : "Verify Dispense Now button",
+      "children" : [ {
+        "name" : "Verify Dispense Now button",
+        "uid" : "50c40a59f24ed8b9",
+        "parentUid" : "82b1eba4b6a14d17ac51efd4603d9450",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571210721,
+          "stop" : 1608571214795,
+          "duration" : 4074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82b1eba4b6a14d17ac51efd4603d9450"
+    } ],
+    "uid" : "1d56228ae7c46177618a50512c69274b"
+  } ]
+}

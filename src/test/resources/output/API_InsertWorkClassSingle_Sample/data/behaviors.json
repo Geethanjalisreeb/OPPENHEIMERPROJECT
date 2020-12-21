@@ -1,0 +1,264 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Insert Single Work Class",
+    "children" : [ {
+      "name" : "Insert Work Class with gender M",
+      "children" : [ {
+        "name" : "Insert Work Class with gender M",
+        "uid" : "47aa8675346df5be",
+        "parentUid" : "99e6ff24d3b98ea5f1759a3e9f774402",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571586113,
+          "stop" : 1608571587324,
+          "duration" : 1211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "T11Name", "T111111", "345678", "250", "Insert Work Class with gender M" ]
+      } ],
+      "uid" : "99e6ff24d3b98ea5f1759a3e9f774402"
+    }, {
+      "name" : "Insert Work Class with gender F",
+      "children" : [ {
+        "name" : "Insert Work Class with gender F",
+        "uid" : "c47689b65c6d722c",
+        "parentUid" : "8a118bb838617825aa9e11758867ea90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587374,
+          "stop" : 1608571587399,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "M", "T12Name", "T122222", "345678", "250", "Insert Work Class with gender F" ]
+      } ],
+      "uid" : "8a118bb838617825aa9e11758867ea90"
+    }, {
+      "name" : "Insert Work Class with decimal Salary",
+      "children" : [ {
+        "name" : "Insert Work Class with decimal Salary",
+        "uid" : "43a78f642b42ae51",
+        "parentUid" : "71ed80c427f4f4217ec7f901a470dc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587403,
+          "stop" : 1608571587427,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "T13Name", "T133333", "345678.5556", "250", "Insert Work Class with decimal Salary" ]
+      } ],
+      "uid" : "71ed80c427f4f4217ec7f901a470dc41"
+    }, {
+      "name" : "Insert Work Class with decimal Tax",
+      "children" : [ {
+        "name" : "Insert Work Class with decimal Tax",
+        "uid" : "847ddc109e003b1c",
+        "parentUid" : "13458413a520c0977c46cacbf535beb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587430,
+          "stop" : 1608571587457,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "T14Name", "T144444", "345678", "250.4555", "Insert Work Class with decimal Tax" ]
+      } ],
+      "uid" : "13458413a520c0977c46cacbf535beb8"
+    }, {
+      "name" : "Insert Work Class with spl char in Name",
+      "children" : [ {
+        "name" : "Insert Work Class with spl char in Name",
+        "uid" : "cfc53910d8b1e32c",
+        "parentUid" : "cd75244d70911b3bb651c398bd877743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587464,
+          "stop" : 1608571587487,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "@@$$%^O&O", "T155555", "345678.5556", "250", "Insert Work Class with spl char in Name" ]
+      } ],
+      "uid" : "cd75244d70911b3bb651c398bd877743"
+    }, {
+      "name" : "Insert Work Class with spl char in Natid",
+      "children" : [ {
+        "name" : "Insert Work Class with spl char in Natid",
+        "uid" : "d42b1dbd1ccab5f9",
+        "parentUid" : "0f2aa4bec7b58281361efea1dac2cbf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587489,
+          "stop" : 1608571587510,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "T15Name", "@@$$%^O&O", "345678", "250.4555", "Insert Work Class with spl char in Natid" ]
+      } ],
+      "uid" : "0f2aa4bec7b58281361efea1dac2cbf8"
+    }, {
+      "name" : "Insert Work Class with invalid gender",
+      "children" : [ {
+        "name" : "Insert Work Class with invalid gender",
+        "uid" : "95c692c897f2117d",
+        "parentUid" : "298a18062bd47b1d23bb2c69d8e194ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571587514,
+          "stop" : 1608571587540,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "E", "T21Name", "T211111", "345678", "250", "Insert Work Class with invalid gender" ]
+      } ],
+      "uid" : "298a18062bd47b1d23bb2c69d8e194ea"
+    }, {
+      "name" : "Insert Work Class with null gender",
+      "children" : [ {
+        "name" : "Insert Work Class with null gender",
+        "uid" : "18557c3f85cf3587",
+        "parentUid" : "21c14e0c8895dc938387e075a5644390",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571587549,
+          "stop" : 1608571587569,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "", "T22Name", "T222222", "345678", "250", "Insert Work Class with null gender" ]
+      } ],
+      "uid" : "21c14e0c8895dc938387e075a5644390"
+    }, {
+      "name" : "Insert Work Class with null Salary",
+      "children" : [ {
+        "name" : "Insert Work Class with null Salary",
+        "uid" : "6b13b219795e72b0",
+        "parentUid" : "84b9aa2c3cec461459de61305b4c4443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587571,
+          "stop" : 1608571587669,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "T23Name", "T233333", "", "250", "Insert Work Class with null Salary" ]
+      } ],
+      "uid" : "84b9aa2c3cec461459de61305b4c4443"
+    }, {
+      "name" : "Insert Work Class with invalid Salary",
+      "children" : [ {
+        "name" : "Insert Work Class with invalid Salary",
+        "uid" : "ca8245cf284e7c3b",
+        "parentUid" : "df7d43ede0b011f5ee67e8c0fc525240",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587672,
+          "stop" : 1608571587701,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "T24Name", "T244444", "rtt", "250.4555", "Insert Work Class with invalid Salary" ]
+      } ],
+      "uid" : "df7d43ede0b011f5ee67e8c0fc525240"
+    }, {
+      "name" : "Insert Work Class with null Tax",
+      "children" : [ {
+        "name" : "Insert Work Class with null Tax",
+        "uid" : "f5287646d2635e39",
+        "parentUid" : "b9f7935fd0867e31d786aa6bec4e4b43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587704,
+          "stop" : 1608571587750,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "@@$$%^O&O", "T255555", "345678.5556", "", "Insert Work Class with null Tax" ]
+      } ],
+      "uid" : "b9f7935fd0867e31d786aa6bec4e4b43"
+    }, {
+      "name" : "Insert Work Class with invalid Tax",
+      "children" : [ {
+        "name" : "Insert Work Class with invalid Tax",
+        "uid" : "2590bca8249ac74e",
+        "parentUid" : "c4e650e9fae15a6b73974536302edf1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587753,
+          "stop" : 1608571587800,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081988", "F", "T25Name", "@@$$%^O&O", "345678", "fgg", "Insert Work Class with invalid Tax" ]
+      } ],
+      "uid" : "c4e650e9fae15a6b73974536302edf1d"
+    }, {
+      "name" : "Insert Work Class with invalid Birthday",
+      "children" : [ {
+        "name" : "Insert Work Class with invalid Birthday",
+        "uid" : "7dfd99e83957e975",
+        "parentUid" : "bbfa0e49491b4bd1a870c16c61f9b59f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587803,
+          "stop" : 1608571587851,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "56081988", "F", "T26Name", "T266666", "345678", "250.4555", "Insert Work Class with invalid Birthday" ]
+      } ],
+      "uid" : "bbfa0e49491b4bd1a870c16c61f9b59f"
+    }, {
+      "name" : "Insert Work Class with null Birthday",
+      "children" : [ {
+        "name" : "Insert Work Class with null Birthday",
+        "uid" : "b42bcd396ce76439",
+        "parentUid" : "55fdad24204701c8102af0d59db8aacc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571587854,
+          "stop" : 1608571587900,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "", "F", "T27Name", "T277777", "345678", "250.4555", "Insert Work Class with null Birthday" ]
+      } ],
+      "uid" : "55fdad24204701c8102af0d59db8aacc"
+    }, {
+      "name" : "Insert Work Class with Tax value more than Salary",
+      "children" : [ {
+        "name" : "Insert Work Class with Tax value more than Salary",
+        "uid" : "bf4951f7ed030ab8",
+        "parentUid" : "64efc2c16850ca252b2068b0eb43c75f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571587903,
+          "stop" : 1608571587932,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "20081996", "F", "T28Name", "T288888", "3456", "233422", "Insert Work Class with Tax value more than Salary" ]
+      } ],
+      "uid" : "64efc2c16850ca252b2068b0eb43c75f"
+    } ],
+    "uid" : "3128222810bbfe9e2ae2eea3850b666c"
+  } ]
+}

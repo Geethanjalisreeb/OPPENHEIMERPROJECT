@@ -1,0 +1,165 @@
+{
+  "uid" : "ca8245cf284e7c3b",
+  "name" : "Insert Work Class with invalid Salary",
+  "fullName" : "Insert Single Work Class: Insert Work Class with invalid Salary",
+  "historyId" : "4b0e14d39368ae7cbba1a263004db500",
+  "time" : {
+    "start" : 1608571587672,
+    "stop" : 1608571587701,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Database is cleaned up before test execution",
+      "time" : {
+        "start" : 1608571587672,
+        "stop" : 1608571587673,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571587673,
+        "stop" : 1608571587700,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "463eb66a0e52553b",
+        "name" : "Data table",
+        "source" : "463eb66a0e52553b.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 78
+      }, {
+        "uid" : "da9ee19cfa3d6a49",
+        "name" : "Request Header:",
+        "source" : "da9ee19cfa3d6a49.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "2193718b57ecc0f",
+        "name" : "Request Body:",
+        "source" : "2193718b57ecc0f.json",
+        "type" : "text/json",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"500\"",
+      "time" : {
+        "start" : 1608571587700,
+        "stop" : 1608571587701,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ca0146a4cc98138",
+        "name" : "Actual Status Code: ",
+        "source" : "3ca0146a4cc98138.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "InsertWorkClassSingle"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25571@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with invalid Salary"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Insert Single Work Class"
+  }, {
+    "name" : "suite",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with invalid Salary"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/InsertSingleWorkingClassAPI.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "19081988"
+  }, {
+    "name" : "Gender",
+    "value" : "F"
+  }, {
+    "name" : "Name",
+    "value" : "T24Name"
+  }, {
+    "name" : "Natid",
+    "value" : "T244444"
+  }, {
+    "name" : "Salary",
+    "value" : "rtt"
+  }, {
+    "name" : "Tax",
+    "value" : "250.4555"
+  }, {
+    "name" : "TestScenario_Failure",
+    "value" : "Insert Work Class with invalid Salary"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "InsertWorkClassSingle" ]
+  },
+  "source" : "ca8245cf284e7c3b.json",
+  "parameterValues" : [ "19081988", "F", "T24Name", "T244444", "rtt", "250.4555", "Insert Work Class with invalid Salary" ]
+}

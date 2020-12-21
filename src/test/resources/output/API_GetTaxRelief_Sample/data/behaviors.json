@@ -1,0 +1,179 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "GetTaxReliefValues",
+    "children" : [ {
+      "name" : "Insert Work Class with Age less than 18 (Masked Value & Gender F)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age less than 18 (Masked Value & Gender F)",
+        "uid" : "c76a75d27d023edc",
+        "parentUid" : "58f9e8bca903700a454a4f4bfa172007",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571675033,
+          "stop" : 1608571676699,
+          "duration" : 1666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19082004", "F", "T51Name", "T511111", "T511$$$", "345678", "250", "345928.00", "Insert Work Class with Age less than 18 (Masked Value & Gender F)" ]
+      } ],
+      "uid" : "58f9e8bca903700a454a4f4bfa172007"
+    }, {
+      "name" : "Insert Work Class with Age equal 18 (Masked Value & Gender M)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age equal 18 (Masked Value & Gender M)",
+        "uid" : "c77ae11dfd849f2e",
+        "parentUid" : "f48fbac101ede53bde965288c61a3a8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571676763,
+          "stop" : 1608571676863,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19082002", "M", "T52Name", "T522222", "T522$$$", "345678", "250", "345428.00", "Insert Work Class with Age equal 18 (Masked Value & Gender M)" ]
+      } ],
+      "uid" : "f48fbac101ede53bde965288c61a3a8a"
+    }, {
+      "name" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)",
+        "uid" : "a9c50c966dd62e96",
+        "parentUid" : "70b4d2fe288939b464d75c57d91db574",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571676872,
+          "stop" : 1608571676974,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19082000", "F", "T53Name", "T533333", "T533$$$", "345678.5", "250", "276842.80", "Insert Work Class with Age greater than 18 and less than 35 (Normal Rounding Rule)" ]
+      } ],
+      "uid" : "70b4d2fe288939b464d75c57d91db574"
+    }, {
+      "name" : "Insert Work Class with Age equal 35 (Normal Rounding Rule)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age equal 35 (Normal Rounding Rule)",
+        "uid" : "ced2f562d68c50b9",
+        "parentUid" : "8aecd637958c2c660b8344047e44b97e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571676986,
+          "stop" : 1608571677089,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081985", "M", "T54Name", "T544444", "T544$$$", "345678", "250.35", "276342.12", "Insert Work Class with Age equal 35 (Normal Rounding Rule)" ]
+      } ],
+      "uid" : "8aecd637958c2c660b8344047e44b97e"
+    }, {
+      "name" : "Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)",
+        "uid" : "d2395161b891dcbf",
+        "parentUid" : "348404736bf41526b4a75b646a48ad5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571677092,
+          "stop" : 1608571677170,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081980", "M", "T55Name", "T555555", "T555$$$", "345678", "345678", "50.00", "Insert Work Class with Age greater than 35 and less than 50 (Tax Relief is 0.00)" ]
+      } ],
+      "uid" : "348404736bf41526b4a75b646a48ad5f"
+    }, {
+      "name" : "Insert Work Class with Age equal 50 (Tax Relief is 50.00)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age equal 50 (Tax Relief is 50.00)",
+        "uid" : "c94d57ce7fa3d7d2",
+        "parentUid" : "fe56fcd15387a443b29655c4f2ff51dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571677173,
+          "stop" : 1608571677259,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081970", "M", "T56Name", "T566666", "T566$$$", "345678", "345578", "50.00", "Insert Work Class with Age equal 50 (Tax Relief is 50.00)" ]
+      } ],
+      "uid" : "fe56fcd15387a443b29655c4f2ff51dc"
+    }, {
+      "name" : "Insert Work Class with Age greater than 50 and less than 75 (0.00< TaxRelief<50.00)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age greater than 50 and less than 75 (0.00< TaxRelief<50.00)",
+        "uid" : "417ccc08aa1d2bde",
+        "parentUid" : "bb411f9f9e2ae04f77f9fe7da85cdb13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571677262,
+          "stop" : 1608571677341,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081965", "M", "T57Name", "T577777", "T577$$$", "345678", "345544.6667", "50.00", "Insert Work Class with Age greater than 50 and less than 75 (0.00< TaxRelief<50.00)" ]
+      } ],
+      "uid" : "bb411f9f9e2ae04f77f9fe7da85cdb13"
+    }, {
+      "name" : "Insert Work Class with Age equal 75  (0.00< TaxRelief<50.00 & Gender F)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age equal 75  (0.00< TaxRelief<50.00 & Gender F)",
+        "uid" : "a00b9b3c06b9a7f3",
+        "parentUid" : "719f19872279be6f063abf43a257d14e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571677344,
+          "stop" : 1608571677420,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081945", "F", "T58Name", "T588888", "T588$$$", "345678", "345600", "528.63", "Insert Work Class with Age equal 75  (0.00< TaxRelief<50.00 & Gender F)" ]
+      } ],
+      "uid" : "719f19872279be6f063abf43a257d14e"
+    }, {
+      "name" : "Insert Work Class with Age equal 76  (Decimal Truncate to 2)",
+      "children" : [ {
+        "name" : "Insert Work Class with Age equal 76  (Decimal Truncate to 2)",
+        "uid" : "7ea8210872f307c9",
+        "parentUid" : "83d8f435b79fc7bd6263d7015b70dc38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571677423,
+          "stop" : 1608571677491,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081944", "F", "T59Name", "T599999", "T599$$$", "345678.345", "250.567", "171771.39", "Insert Work Class with Age equal 76  (Decimal Truncate to 2)" ]
+      } ],
+      "uid" : "83d8f435b79fc7bd6263d7015b70dc38"
+    }, {
+      "name" : "Insert Work Class with Age greater than 76",
+      "children" : [ {
+        "name" : "Insert Work Class with Age greater than 76",
+        "uid" : "7172bdc34cecf9df",
+        "parentUid" : "63530a9348ab03c77a1375d721ba6907",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608571677494,
+          "stop" : 1608571677557,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19081940", "M", "T50Name", "T500000", "T500$$$", "345678", "250", "171271.40", "Insert Work Class with Age greater than 76" ]
+      } ],
+      "uid" : "63530a9348ab03c77a1375d721ba6907"
+    } ],
+    "uid" : "6275f2309ee050fac7ce7b881e008f0b"
+  } ]
+}

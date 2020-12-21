@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SIAQ00172MB-245.local",
+    "children" : [ {
+      "name" : "25247@SIAQ00172MB-245.local.PoolService-0(14)",
+      "children" : [ {
+        "name" : "Upload File as a Clerk",
+        "uid" : "611d31ec9d45fb5f",
+        "parentUid" : "696127e05dd74e1199e2559e0d5e18e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571197316,
+          "stop" : 1608571210616,
+          "duration" : 13300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Dispense Now button",
+        "uid" : "50c40a59f24ed8b9",
+        "parentUid" : "696127e05dd74e1199e2559e0d5e18e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608571210721,
+          "stop" : 1608571214795,
+          "duration" : 4074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "696127e05dd74e1199e2559e0d5e18e0"
+    } ],
+    "uid" : "f3335211b9dc60817211d4435db98768"
+  } ]
+}

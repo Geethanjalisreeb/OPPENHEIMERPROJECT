@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "3128222810bbfe9e2ae2eea3850b666c",
+    "name" : "Insert Single Work Class",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 15
+    }
+  } ]
+}

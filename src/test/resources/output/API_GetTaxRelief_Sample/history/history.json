@@ -1,0 +1,197 @@
+{
+  "e0ac0f5692f6aecd90f7c7202b340222" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7172bdc34cecf9df",
+      "status" : "failed",
+      "statusDetails" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"171271.40\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"17271.00\"}>",
+      "time" : {
+        "start" : 1608571677494,
+        "stop" : 1608571677557,
+        "duration" : 63
+      }
+    } ]
+  },
+  "3b4481bbd4be357b4ba95ebf330de47" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9c50c966dd62e96",
+      "status" : "failed",
+      "statusDetails" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.80\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276842.81\"}>",
+      "time" : {
+        "start" : 1608571676872,
+        "stop" : 1608571676974,
+        "duration" : 102
+      }
+    } ]
+  },
+  "d019fde28f98f7f652a35c753a3a7a03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c76a75d27d023edc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571675033,
+        "stop" : 1608571676699,
+        "duration" : 1666
+      }
+    } ]
+  },
+  "36ac47404ff5f2f69f341ce2eca244c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c77ae11dfd849f2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571676763,
+        "stop" : 1608571676863,
+        "duration" : 100
+      }
+    } ]
+  },
+  "823bda5e448bcbcae45141410d513cba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c94d57ce7fa3d7d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571677173,
+        "stop" : 1608571677259,
+        "duration" : 86
+      }
+    } ]
+  },
+  "8308062e068477541b04291851c9ae2c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ced2f562d68c50b9",
+      "status" : "failed",
+      "statusDetails" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276342.12\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"276342.00\"}>",
+      "time" : {
+        "start" : 1608571676986,
+        "stop" : 1608571677089,
+        "duration" : 103
+      }
+    } ]
+  },
+  "935ffa6c8531df989808dbbce43ec0d2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2395161b891dcbf",
+      "status" : "failed",
+      "statusDetails" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"50.00\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"86419\"}>",
+      "time" : {
+        "start" : 1608571677092,
+        "stop" : 1608571677170,
+        "duration" : 78
+      }
+    } ]
+  },
+  "c0f7ed700ca4f689de08d52ecf3390b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ea8210872f307c9",
+      "status" : "failed",
+      "statusDetails" : "expected:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"171771.39\"}> but was:<{\"totalWorkingClassHeroes\":\"1\",\"totalTaxReliefAmount\":\"17771.00\"}>",
+      "time" : {
+        "start" : 1608571677423,
+        "stop" : 1608571677491,
+        "duration" : 68
+      }
+    } ]
+  },
+  "ecf44efc6f7c9543cf82fd46f71fdaf5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a00b9b3c06b9a7f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571677344,
+        "stop" : 1608571677420,
+        "duration" : 76
+      }
+    } ]
+  },
+  "822350d7efc0738d7d3eb46a6027253e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "417ccc08aa1d2bde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571677262,
+        "stop" : 1608571677341,
+        "duration" : 79
+      }
+    } ]
+  }
+}

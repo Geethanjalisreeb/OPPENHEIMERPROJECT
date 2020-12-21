@@ -1,0 +1,175 @@
+{
+  "uid" : "18557c3f85cf3587",
+  "name" : "Insert Work Class with null gender",
+  "fullName" : "Insert Single Work Class: Insert Work Class with null gender",
+  "historyId" : "d1b183227475d709f44e70f6e61b8d8f",
+  "time" : {
+    "start" : 1608571587549,
+    "stop" : 1608571587569,
+    "duration" : 20
+  },
+  "status" : "failed",
+  "statusMessage" : "expected:<500> but was:<202>",
+  "statusTrace" : "java.lang.AssertionError: expected:<500> but was:<202>\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:472)\n\tat org.junit.Assert.assertEquals(Assert.java:456)\n\tat api.tests.BaseTests.assertStatusCode(BaseTests.java:252)\n\tat api.tests.CucumberSteps.i_should_validate_status_code_is(CucumberSteps.java:42)\n\tat ✽.I should validate status code is \"500\"(file:src/test/resources/features/InsertSingleWorkingClassAPI.feature:27)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected:<500> but was:<202>",
+    "statusTrace" : "java.lang.AssertionError: expected:<500> but was:<202>\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:472)\n\tat org.junit.Assert.assertEquals(Assert.java:456)\n\tat api.tests.BaseTests.assertStatusCode(BaseTests.java:252)\n\tat api.tests.CucumberSteps.i_should_validate_status_code_is(CucumberSteps.java:42)\n\tat ✽.I should validate status code is \"500\"(file:src/test/resources/features/InsertSingleWorkingClassAPI.feature:27)\n",
+    "steps" : [ {
+      "name" : "Given  Database is cleaned up before test execution",
+      "time" : {
+        "start" : 1608571587549,
+        "stop" : 1608571587550,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insert\" and request as in \"InsertWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571587551,
+        "stop" : 1608571587567,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f79c749c371592b4",
+        "name" : "Data table",
+        "source" : "f79c749c371592b4.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 75
+      }, {
+        "uid" : "7dc57bc5c8a2c280",
+        "name" : "Request Header:",
+        "source" : "7dc57bc5c8a2c280.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "8b46e171ad86a094",
+        "name" : "Request Body:",
+        "source" : "8b46e171ad86a094.json",
+        "type" : "text/json",
+        "size" : 131
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"500\"",
+      "time" : {
+        "start" : 1608571587568,
+        "stop" : 1608571587569,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "expected:<500> but was:<202>",
+      "statusTrace" : "java.lang.AssertionError: expected:<500> but was:<202>\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:472)\n\tat org.junit.Assert.assertEquals(Assert.java:456)\n\tat api.tests.BaseTests.assertStatusCode(BaseTests.java:252)\n\tat api.tests.CucumberSteps.i_should_validate_status_code_is(CucumberSteps.java:42)\n\tat ✽.I should validate status code is \"500\"(file:src/test/resources/features/InsertSingleWorkingClassAPI.feature:27)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5e9ae200e836997",
+        "name" : "Actual Status Code: ",
+        "source" : "f5e9ae200e836997.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "InsertWorkClassSingle"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25571@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "story",
+    "value" : "Insert Work Class with null gender"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Insert Single Work Class"
+  }, {
+    "name" : "suite",
+    "value" : "Insert Single Work Class"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert Work Class with null gender"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/InsertSingleWorkingClassAPI.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Birthday",
+    "value" : "19081988"
+  }, {
+    "name" : "Gender",
+    "value" : ""
+  }, {
+    "name" : "Name",
+    "value" : "T22Name"
+  }, {
+    "name" : "Natid",
+    "value" : "T222222"
+  }, {
+    "name" : "Salary",
+    "value" : "345678"
+  }, {
+    "name" : "Tax",
+    "value" : "250"
+  }, {
+    "name" : "TestScenario_Failure",
+    "value" : "Insert Work Class with null gender"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "InsertWorkClassSingle" ]
+  },
+  "source" : "18557c3f85cf3587.json",
+  "parameterValues" : [ "19081988", "", "T22Name", "T222222", "345678", "250", "Insert Work Class with null gender" ]
+}

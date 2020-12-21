@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: api.runner.APITestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 3.596 s <<< FAILURE! - in api.runner.APITestRunner
+runScenario(api.runner.APITestRunner)  Time elapsed: 0.101 s  <<< FAILURE!
+java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276842.80"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276842.81"}>
+
+runScenario(api.runner.APITestRunner)  Time elapsed: 0.091 s  <<< FAILURE!
+java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276342.12"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276342.00"}>
+
+runScenario(api.runner.APITestRunner)  Time elapsed: 0.07 s  <<< FAILURE!
+java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"50.00"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"86419"}>
+
+runScenario(api.runner.APITestRunner)  Time elapsed: 0.085 s  <<< FAILURE!
+java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"171771.39"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17771.00"}>
+
+runScenario(api.runner.APITestRunner)  Time elapsed: 0.066 s  <<< FAILURE!
+java.lang.AssertionError: expected:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"171271.40"}> but was:<{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17271.00"}>
+

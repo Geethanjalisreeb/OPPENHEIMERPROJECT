@@ -1,0 +1,2014 @@
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 101[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 101
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19082004","gender":"F","natid":"T511111","name":"T51Name","tax":"250","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 101[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 101
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19082004","gender":"F","natid":"T511111","name":"T51Name","tax":"250","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T511$$$","name":"Name","relief":"345928.00"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T511$$$","name":"Name","relief":"345928.00"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "42[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"345928.00"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@c3fa05a
+Connection can be kept alive indefinitely
+Connection 0.0.0.0:56627<->127.0.0.1:8080 closed
+Connection 0.0.0.0:56634<->127.0.0.1:8080 closed
+Connection 0.0.0.0:56633<->127.0.0.1:8080 closed
+Connection 0.0.0.0:56628<->127.0.0.1:8080 closed
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 101[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 101
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19082002","gender":"M","natid":"T522222","name":"T52Name","tax":"250","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 101[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 101
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19082002","gender":"M","natid":"T522222","name":"T52Name","tax":"250","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T522$$$","name":"Name","relief":"345428.00"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T522$$$","name":"Name","relief":"345428.00"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:41 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:41 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "42[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"345428.00"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@69e05f61
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 103[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 103
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19082000","gender":"F","natid":"T533333","name":"T53Name","tax":"250","salary":"345678.5"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 103[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 103
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19082000","gender":"F","natid":"T533333","name":"T53Name","tax":"250","salary":"345678.5"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T533$$$","name":"Name","relief":"276842.80"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T533$$$","name":"Name","relief":"276842.80"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "42[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276842.81"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1976f537
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081985","gender":"M","natid":"T544444","name":"T54Name","tax":"250.35","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081985","gender":"M","natid":"T544444","name":"T54Name","tax":"250.35","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T544$$$","name":"Name","relief":"276342.12"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T544$$$","name":"Name","relief":"276342.12"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "42[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"276342.00"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2f98635e
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081980","gender":"M","natid":"T555555","name":"T55Name","tax":"345678","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081980","gender":"M","natid":"T555555","name":"T55Name","tax":"345678","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 52[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 52
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T555$$$","name":"Name","relief":"50.00"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 52[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 52
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T555$$$","name":"Name","relief":"50.00"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "3e[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"86419"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2324bfe7
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081970","gender":"M","natid":"T566666","name":"T56Name","tax":"345578","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081970","gender":"M","natid":"T566666","name":"T56Name","tax":"345578","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 52[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 52
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T566$$$","name":"Name","relief":"50.00"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 52[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 52
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T566$$$","name":"Name","relief":"50.00"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "3e[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"50.00"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4b1a43d8
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 109[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 109
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081965","gender":"M","natid":"T577777","name":"T57Name","tax":"345544.6667","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 109[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 109
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081965","gender":"M","natid":"T577777","name":"T57Name","tax":"345544.6667","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 52[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 52
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T577$$$","name":"Name","relief":"50.00"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 52[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 52
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T577$$$","name":"Name","relief":"50.00"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "3e[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"50.00"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@d48673
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081945","gender":"F","natid":"T588888","name":"T58Name","tax":"345600","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 104[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 104
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081945","gender":"F","natid":"T588888","name":"T58Name","tax":"345600","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 53[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 53
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T588$$$","name":"Name","relief":"528.63"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 53[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 53
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T588$$$","name":"Name","relief":"528.63"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "3f[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"528.63"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3d7b1f1c
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 109[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 109
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081944","gender":"F","natid":"T599999","name":"T59Name","tax":"250.567","salary":"345678.345"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 109[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 109
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081944","gender":"F","natid":"T599999","name":"T59Name","tax":"250.567","salary":"345678.345"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T599$$$","name":"Name","relief":"171771.39"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T599$$$","name":"Name","relief":"171771.39"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "41[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17771.00"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ffa56fa
+Connection can be kept alive indefinitely
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/rakeDatabase HTTP/1.1
+ >> "POST /calculator/rakeDatabase HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Length: 0[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/rakeDatabase HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Accept: application/json
+>> Content-Length: 0
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 21[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 21
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /calculator/insert HTTP/1.1
+ >> "POST /calculator/insert HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 101[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /calculator/insert HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 101
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081940","gender":"M","natid":"T500000","name":"T50Name","tax":"250","salary":"345678"}"
+ << "HTTP/1.1 202 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Content-Length: 7[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 202 
+<< HTTP/1.1 202 
+<< Content-Type: application/json;charset=UTF-8
+<< Content-Length: 7
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxRelief HTTP/1.1
+ >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 101[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 101
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "{"birthday":"19081940","gender":"M","natid":"T500000","name":"T50Name","tax":"250","salary":"345678"}"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /GetTaxRelief HTTP/1.1
+ >> "POST /GetTaxRelief HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /GetTaxRelief HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T500$$$","name":"Name","relief":"171271.40"}]"
+ << "HTTP/1.1 404 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 404 
+<< HTTP/1.1 404 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Get connection for route {}->http://localhost:8080
+Connecting to localhost:8080
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /calculator/taxReliefSummary HTTP/1.1
+ >> "GET /calculator/taxReliefSummary HTTP/1.1[\r][\n]"
+ >> "Accept: application/json[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 56[\r][\n]"
+ >> "Host: localhost:8080[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /calculator/taxReliefSummary HTTP/1.1
+>> Accept: application/json
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 56
+>> Host: localhost:8080
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+>> Accept-Encoding: gzip,deflate
+ >> "[{"natid":"T500$$$","name":"Name","relief":"171271.40"}]"
+ << "HTTP/1.1 200 [\r][\n]"
+ << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Date: Mon, 21 Dec 2020 17:52:42 GMT[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 
+<< HTTP/1.1 200 
+<< Content-Type: application/json;charset=UTF-8
+<< Transfer-Encoding: chunked
+<< Date: Mon, 21 Dec 2020 17:52:42 GMT
+Connection can be kept alive indefinitely
+Parsing response as: application/json;charset=UTF-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "41[\r][\n]"
+ << "{"totalWorkingClassHeroes":"1","totalTaxReliefAmount":"17271.00"}"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@50d951e7
+Connection can be kept alive indefinitely

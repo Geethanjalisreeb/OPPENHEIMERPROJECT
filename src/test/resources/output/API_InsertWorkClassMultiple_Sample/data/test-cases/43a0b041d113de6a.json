@@ -1,0 +1,150 @@
+{
+  "uid" : "43a0b041d113de6a",
+  "name" : "Insert multiple work class list",
+  "fullName" : "Insert Multiple Work Class: Insert multiple work class list",
+  "historyId" : "442ed094e7570072a51cc4b49ac6166",
+  "time" : {
+    "start" : 1608571634620,
+    "stop" : 1608571635830,
+    "duration" : 1210
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Database is cleaned up before test execution",
+      "time" : {
+        "start" : 1608571634622,
+        "stop" : 1608571635690,
+        "duration" : 1068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3503e77f2194ccfa",
+        "name" : "Request Header:",
+        "source" : "3503e77f2194ccfa.txt",
+        "type" : "text/plain",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send post request with path \"/calculator/insertMultiple\" and request as in \"InsertMultipleWorkingClass\" with following values",
+      "time" : {
+        "start" : 1608571635690,
+        "stop" : 1608571635825,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b0e9e2f4d7a4f1f",
+        "name" : "Data table",
+        "source" : "7b0e9e2f4d7a4f1f.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 162
+      }, {
+        "uid" : "131667c343bfb85e",
+        "name" : "Request Header:",
+        "source" : "131667c343bfb85e.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "35b0eb230abf0b9c",
+        "name" : "Request Body:",
+        "source" : "35b0eb230abf0b9c.json",
+        "type" : "text/json",
+        "size" : 268
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should validate status code is \"202\"",
+      "time" : {
+        "start" : 1608571635825,
+        "stop" : 1608571635828,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ee19d2cb6154dee",
+        "name" : "Actual Status Code: ",
+        "source" : "8ee19d2cb6154dee.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "InsertWorkClassMultiple"
+  }, {
+    "name" : "host",
+    "value" : "SIAQ00172MB-245.local"
+  }, {
+    "name" : "thread",
+    "value" : "25653@SIAQ00172MB-245.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Insert Multiple Work Class"
+  }, {
+    "name" : "story",
+    "value" : "Insert multiple work class list"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Insert Multiple Work Class"
+  }, {
+    "name" : "suite",
+    "value" : "Insert Multiple Work Class"
+  }, {
+    "name" : "testClass",
+    "value" : "Insert multiple work class list"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/InsertMultipleWorkingClassAPI.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "InsertWorkClassMultiple" ]
+  },
+  "source" : "43a0b041d113de6a.json",
+  "parameterValues" : [ ]
+}

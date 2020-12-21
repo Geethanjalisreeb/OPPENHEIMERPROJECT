@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "b6cd9ff269bcbba608846ffda5a9bf29",
+    "name" : "GetTaxReliefValues",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}
